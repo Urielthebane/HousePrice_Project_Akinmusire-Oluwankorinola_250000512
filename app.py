@@ -4,8 +4,8 @@ import pandas as pd
 
 app = Flask(__name__)
 
-model = joblib.load("model/house_price_model.pkl")
-scaler = joblib.load("model/feature_columns.pkl")
+model = joblib.load("model/house_price_model.joblib")
+scaler = joblib.load("model/scaler.joblib")
 columns = json.load(open("model/columns.json"))
 
 num_cols = [

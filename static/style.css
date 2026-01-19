@@ -5,12 +5,9 @@
 
 body {
   margin: 0;
-  min-height:100vh ;
   background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
   min-height: 100vh;
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
 }
 
@@ -29,7 +26,7 @@ body {
   width: 100%;
   max-width: 440px;
   border-radius: 18px;
-  box-shadow: 0 25px 60px rgba(207, 6, 6, 0.204);
+  box-shadow: 0 25px 60px rgba(0,0,0,0.3);
   text-align: center;
 }
 
@@ -52,7 +49,7 @@ h1 {
 
 .grid {
   display: grid;
-  grid-template-columns: 2fr 2fr;
+  grid-template-columns: 1fr 1fr;
   gap: 14px;
 }
 
@@ -72,7 +69,7 @@ input, select {
 }
 
 input:focus, select:focus {
-  border-color: #0a26c3;
+  border-color: #5f2c82;
   box-shadow: 0 0 0 3px rgba(95,44,130,0.15);
 }
 
@@ -82,7 +79,7 @@ button {
   padding: 13px;
   border: none;
   border-radius: 12px;
-  background: linear-gradient(135deg, #0a26c3, #49a09d);
+  background: linear-gradient(135deg, #5f2c82, #49a09d);
   color: white;
   font-size: 16px;
   font-weight: 600;
@@ -106,7 +103,7 @@ button:hover {
 }
 
 .result span {
-  color: #0a26c3;
+  color: #5f2c82;
   font-weight: 700;
 }
 
@@ -116,7 +113,7 @@ footer {
   padding: 12px 0;
   width: 100%;
   text-align: center;
-  color: #3df908;
+  color: #e0e0e0;
   font-size: 13px;
 }
 
