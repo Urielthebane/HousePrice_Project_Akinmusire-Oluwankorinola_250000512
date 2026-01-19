@@ -1,0 +1,11 @@
+Name : Akinmusire Oluwankoriola
+
+Matric Number : 250000512
+
+Machine Learning Algorithm Used :  Random Forest Regressor
+
+Model persistence method used: pickle
+
+Live URL of the hosted application : 
+
+GitHub repository link : 
