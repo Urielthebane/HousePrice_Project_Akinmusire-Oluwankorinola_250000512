@@ -6,6 +6,6 @@ Machine Learning Algorithm Used :  Random Forest Regressor
 
 Model persistence method used: Joblib
 
-Live URL of the hosted application : 
+Live URL of the hosted application : https://house-price-prediction-app-3.onrender.com/
 
-GitHub repository link : 
+GitHub repository link : https://github.com/Urielthebane/HousePrice_Project_Akinmusire-Oluwankorinola_250000512
